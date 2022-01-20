@@ -3,7 +3,7 @@ sudo apt update -y
 sudo apt install openjdk-8-jdk openjdk-8-jre -y 
 #sudo apt install openjdk-11-jdk -y
 
-# Jenkins
+# Jenkins: https://updates.jenkins-ci.org/download/war/
 wget https://updates.jenkins-ci.org/download/war/2.330/jenkins.war
 nohup java -jar jenkins.jar &
 
