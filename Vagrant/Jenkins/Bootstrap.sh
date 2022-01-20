@@ -5,7 +5,7 @@ sudo apt install openjdk-8-jdk openjdk-8-jre -y
 
 # Jenkins: https://updates.jenkins-ci.org/download/war/
 wget https://updates.jenkins-ci.org/download/war/2.330/jenkins.war
-nohup java -jar jenkins.jar &
+nohup java -jar jenkins.war &
 
 # Jenkins
 #wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
